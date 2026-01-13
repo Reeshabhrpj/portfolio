@@ -76,7 +76,7 @@ const typewriterTexts = [
             I'm a <Typewriter texts={typewriterTexts} />
           </motion.h2>
           
-          <motion.p 
+          {/* <motion.p 
             className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -86,7 +86,7 @@ const typewriterTexts = [
             and complex business logic. I build frontend systems using React, CMS platforms, 
             and JavaScript that integrate seamlessly with automation workflows, APIs, and 
             live operational systems.
-          </motion.p>
+          </motion.p> */}
           
           <motion.div 
             className="flex justify-center gap-6 mb-12"
