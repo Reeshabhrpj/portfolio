@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react'
+import { ArrowDown, Download, Github, Linkedin, Mail } from 'lucide-react'
 import Typewriter from './Typewriter'
 
 export default function Hero() {
@@ -96,6 +96,7 @@ const typewriterTexts = [
           >
             <motion.a 
               href="https://github.com/Reeshabhrpj?tab=repositories" 
+              target="_blank"
               className="p-3 glass-effect rounded-full hover:scale-110 transition-all duration-300 hover:bg-white/20"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.95 }}
@@ -104,6 +105,7 @@ const typewriterTexts = [
             </motion.a>
             <motion.a 
               href="https://www.linkedin.com/in/reeshabh-jagetiya/" 
+              target="_blank"
               className="p-3 glass-effect rounded-full hover:scale-110 transition-all duration-300 hover:bg-white/20"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.95 }}
@@ -142,7 +144,9 @@ const typewriterTexts = [
                 </motion.span>
               </span>
             </motion.button>
-            {/* <motion.button 
+            <motion.a 
+              href='https://drive.google.com/file/d/1xYSn61dHHdDuRVrNNT8qkDV_BMB8ENKs/view?usp=sharing' 
+              target="_blank"
               className="group px-8 py-4 glass-effect rounded-full font-semibold hover:scale-105 transition-all duration-300 hover:bg-white/20"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -151,14 +155,14 @@ const typewriterTexts = [
                 <Download size={18} />
                 Download CV
               </span>
-            </motion.button> */}
+            </motion.a>
           </motion.div>
         </motion.div>
       </div>
       
       <motion.button
         onClick={() => scrollToSection('about')}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 cursor-pointer group"
+        className="absolute bottom-8 mt-5 left-1/2 transform -translate-x-1/2 cursor-pointer group"
         animate={{ y: [0, 10, 0] }}
         transition={{ duration: 2, repeat: Infinity }}
         whileHover={{ scale: 1.1 }}

@@ -4,10 +4,28 @@ import snakezoneImg from '../assets/snakezone.png'
 import pokemon from '../assets/pokemon.jpg'
 import tictactoe from '../assets/tictactoe.jpg'
 import boxes3d from '../assets/3dboxes.png'
+import dashboard from '../assets/dashboard.png'
+import kbcbg from '../assets/bg.jpg'
 
 export default function Projects() {
 
   const projects = [
+    {
+      title: 'Workflow Monitoring Dashboard',
+      description: 'A modern, production-ready React dashboard for monitoring automation workflows and jobs. Built with React 18, Vite, Tailwind CSS, and Recharts.',
+      image: dashboard,
+      tech: ['React 18', 'Tailwind CSS', 'React Router', 'Recharts'],
+      github: 'https://github.com/Reeshabhrpj/Workflow-Monitoring-Dashboard',
+      live: 'https://workflow-monitoring-dashboard.vercel.app/'
+    },
+        {
+      title: 'React Quiz',
+      description: 'A fully responsive React-based quiz game inspired by "Kaun Banega Crorepati" (KBC) with interactive lifelines, leaderboard, and engaging gameplay.',
+      image: kbcbg,
+      tech: ['React', 'CSS', 'Framer Motion', 'Framer Motion', 'React Hooks'],
+      github: 'https://github.com/Reeshabhrpj/react-quiz',
+      live: 'https://react-quiz-tau-seven.vercel.app/'
+    },
     {
       title: 'Pokémon Explorer',
       description: 'A React application that allows users to explore and search through Pokémon using the PokéAPI. Features real-time search, detailed stats, and responsive card layout',
