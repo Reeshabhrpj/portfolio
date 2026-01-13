@@ -22,7 +22,7 @@ export default function Projects() {
       title: 'React Quiz',
       description: 'A fully responsive React-based quiz game inspired by "Kaun Banega Crorepati" (KBC) with interactive lifelines, leaderboard, and engaging gameplay.',
       image: kbcbg,
-      tech: ['React', 'CSS', 'Framer Motion', 'Framer Motion', 'React Hooks'],
+      tech: ['React', 'CSS', 'Framer Motion', 'React Hooks'],
       github: 'https://github.com/Reeshabhrpj/react-quiz',
       live: 'https://react-quiz-tau-seven.vercel.app/'
     },
